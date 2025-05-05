@@ -22,6 +22,7 @@ in {
           # Streaming
           #moonlight-qt
           parsec-bin
+          gfn-electron
 
           # Wine
           protonup

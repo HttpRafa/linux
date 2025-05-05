@@ -38,7 +38,7 @@ in {
       filezilla # WinSCP alternative
 
       # API testing
-      #postman
+      postman
 
       # Redis
       #redisinsight
