@@ -21,7 +21,7 @@ in {
     environment.systemPackages = with pkgs; [
       # IDEs
       #arduino-ide
-      jetbrains.gateway
+      #jetbrains.gateway
       #android-studio
 
       # Engines
@@ -38,7 +38,7 @@ in {
       filezilla # WinSCP alternative
 
       # API testing
-      postman
+      #postman
 
       # Redis
       #redisinsight
@@ -48,13 +48,13 @@ in {
 
       # Minecraft
       #mcaselector
-      blockbench
+      #blockbench
 
       # Reverse Engineering
       #ghidra-bin
 
       # Linux headers
-      linuxHeaders
+      #linuxHeaders
     ];
   };
 }

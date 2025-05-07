@@ -32,7 +32,7 @@
     # Media editors/players
     mpv # Best media player on linux
     #ffmpeg-full # Video editor
-    gimp # Picture editor
+    gimp3 # Picture editor
     #scrcpy
 
     # Networking
