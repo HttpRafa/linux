@@ -24,7 +24,7 @@ in {
 
       # 3D Printing
       # blender
-      bambu-studio
+      orca-slicer
 
       # Raspberry PI
       #rpi-imager
