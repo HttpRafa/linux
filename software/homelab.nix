@@ -24,7 +24,7 @@ in {
 
       # 3D Printing
       # blender
-      #orca-slicer
+      orca-slicer
 
       # Raspberry PI
       #rpi-imager
