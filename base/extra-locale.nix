@@ -14,8 +14,7 @@ in {
   };
 
   config = {
-    /*
-      i18n.extraLocaleSettings = {
+    i18n.extraLocaleSettings = {
       LC_ADDRESS = cfg;
       LC_IDENTIFICATION = cfg;
       LC_MEASUREMENT = cfg;
@@ -26,6 +25,5 @@ in {
       LC_TELEPHONE = cfg;
       LC_TIME = cfg;
     };
-    */
   };
 }
