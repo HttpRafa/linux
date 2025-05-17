@@ -24,6 +24,7 @@ in {
 
       # 3D Printing
       # blender
+      freecad-qt6
       orca-slicer
 
       # Raspberry PI

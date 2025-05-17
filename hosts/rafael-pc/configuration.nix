@@ -68,7 +68,7 @@
   i18n.supportedLocales = ["en_US.UTF-8/UTF-8" "de_DE.UTF-8/UTF-8"];
 
   # Set extraLocaleSettings option
-  extra-locate = "de_DE.UTF-8";
+  extra-locate = "en_US.UTF-8";
 
   # Configure console keymap
   console.keyMap = "de";
