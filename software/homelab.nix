@@ -31,10 +31,10 @@ in {
       #rpi-imager
 
       # Networking
-      #wireshark
+      wireshark
     ];
 
     # Install wireshark
-    programs.wireshark.enable = false;
+    programs.wireshark.enable = true;
   };
 }
