@@ -19,7 +19,7 @@
 
   # Select desktop
   desktop.kde.enable = true;
-  desktop.hyprland.enable = false; # Disable hyprland
+  desktop.hyprland.enable = false;
   displayManager.sddm = {
     enable = true;
     background = "world_2.jpg";
