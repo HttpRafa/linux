@@ -16,11 +16,20 @@ in {
   };
 
   config = lib.mkIf cfg.enable {
-    # Enable hyprland
-    programs.hyprland.enable = true;
+    programs.hyprland = {
+      # Enable hyprland
+      enable = true;
+      # Whether to enable XWayland
+      xwayland.enable = true;
+      # UWSM
+      withUWSM = true;
+    };
 
     environment.systemPackages = with pkgs; [
       kitty # Terminal Emulator
+
+      # KDE packages
+      kdePackages.dolphin
     ];
   };
 }

@@ -8,6 +8,5 @@
     ./kde.nix
     ./hyprland.nix
     ./displayManager/sddm.nix
-    ./displayManager/lightdm.nix
   ];
 }

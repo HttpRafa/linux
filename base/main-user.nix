@@ -31,6 +31,7 @@ in {
 
     home-manager = {
       extraSpecialArgs = {inherit inputs;};
+      backupFileExtension = "backup";
       users = {
         "${cfg.userName}" = import ../users/${cfg.userName}.nix;
       };
