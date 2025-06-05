@@ -84,7 +84,7 @@
   networking.firewall.allowedTCPPorts = [
     8080 # Atomic Cloud Controller
     25565 # Minecraft
-    8469 # Dyson Sphere Program
+    # 8469 # Dyson Sphere Program
     53317 # LocalSend
   ];
   networking.firewall.allowedUDPPorts = [
