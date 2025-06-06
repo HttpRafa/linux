@@ -19,7 +19,7 @@
     "world_3.jpg"
   ];
 
-  selectedWallpaper = builtins.elemAt wallpapers 9;
+  selectedWallpaper = builtins.elemAt wallpapers 8;
 in {
   imports = [
     ../home/home.nix
@@ -40,7 +40,7 @@ in {
     hyprland = {
       enable = false;
       background = selectedWallpaper;
-      theme = "Nordic-darker";
+      theme = "Monochrome";
       iconTheme = "Papirus-Dark";
     };
     # KDE module
@@ -48,7 +48,7 @@ in {
     kde = {
       enable = true;
       background = selectedWallpaper;
-      theme = "Nordic-darker";
+      theme = "Monochrome";
       iconTheme = "Papirus-Dark";
     };
     # Install vscode for development

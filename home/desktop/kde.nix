@@ -32,8 +32,8 @@ in {
   config = lib.mkIf cfg.enable {
     home.packages = with pkgs; [
       papirus-icon-theme # Install Papirus icon theme
-      nordic # Install Nordic theme
-      #(callPackage ../../nixpkgs/pkgs/monochrome-kde-theme.nix {inherit pkgs;}) # Install Monochrome theme
+      #nordic # Install Nordic theme
+      (callPackage ../../nixpkgs/pkgs/monochrome-kde-theme.nix {inherit pkgs;}) # Install Monochrome theme
     ];
 
     programs.plasma = {
