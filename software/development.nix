@@ -31,6 +31,9 @@ in {
       ## Godot
       godot_4-mono
 
+      # 3D Modelling
+      blender
+
       # CI testing
       #act
 
