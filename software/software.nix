@@ -67,6 +67,9 @@
     #mediawriter
     #parted
 
+    # Gaming Hardware
+    piper
+
     # This is required to be a linux user
     fastfetch
     btop
@@ -100,8 +103,9 @@
   # Install partition manager
   programs.partition-manager.enable = true;
 
-  # Install OpenRGB
-  #services.hardware.openrgb.enable = true;
+  # Install OpenRGB and other tools
+  services.hardware.openrgb.enable = true;
+  services.ratbagd.enable = true;
 
   # Enable pcscd service
   services.pcscd.enable = true;
