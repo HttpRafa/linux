@@ -25,7 +25,7 @@ in {
           gfn-electron
 
           # Wine
-          protonup
+          protonup-qt
           wineWowPackages.stable
           heroic
           r2modman
