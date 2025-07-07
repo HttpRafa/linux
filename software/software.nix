@@ -104,6 +104,9 @@
   services.hardware.openrgb.enable = true;
   #services.ratbagd.enable = true;
 
+  # OneDrive
+  services.onedrive.enable = true;
+
   # Enable pcscd service
   services.pcscd.enable = true;
 
