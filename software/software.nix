@@ -39,7 +39,6 @@
     # ciscoPacketTracer8
 
     # Chat/Voice clients
-    vesktop # Discord but better
     discord
     teamspeak6-client
     # Matrix Client: element-desktop
