@@ -34,7 +34,7 @@ in {
           temurin-bin
           prismlauncher
           labymod-launcher
-          modrinth-app
+          #modrinth-app
           #packwiz
         ];
 
