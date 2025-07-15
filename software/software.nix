@@ -51,7 +51,7 @@
     spotify
 
     # Webbrowser
-    google-chrome
+    (chromium.override {enableWideVine = true;})
     #firefox
 
     # Libreoffice with spell checking for english and german
